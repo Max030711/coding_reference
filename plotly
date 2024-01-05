@@ -1,0 +1,6 @@
+# sns.heatmap
+plt.figure (figsize=(10, 8))
+sns.heatmap(data = cor, annot = True, cmap = 'mako', center = 0)
+
+plt.figure(figsize=(8, 8))
+sns.heatmap(data = cor, annot = True, cmap = 'mako', center = 0, vmin = 0.1, vmax = 0.95, cbar = False)
