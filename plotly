@@ -4,3 +4,9 @@ sns.heatmap(data = cor, annot = True, cmap = 'mako', center = 0)
 
 plt.figure(figsize=(8, 8))
 sns.heatmap(data = cor, annot = True, cmap = 'mako', center = 0, vmin = 0.1, vmax = 0.95, cbar = False)
+
+#Using Pearson Correlation
+plt. figure (figsize=(12,10))
+cor = X_train.corr()
+sns.heatmap(cor, annot=True, cmap=plt.cm.CMRmap_r)
+plt.show()
