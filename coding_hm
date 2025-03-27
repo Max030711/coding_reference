@@ -164,3 +164,5 @@ M1_nf = M1[M1['name'].isin(names_to_filter)]   # nf = name filter
 M2_nf = M2[M2['name'].isin(names_to_filter)]
 M3_nf = M3[M3['name'].isin(names_to_filter)]
 
+simple python-------------------
+
